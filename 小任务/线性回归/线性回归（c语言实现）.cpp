@@ -31,7 +31,6 @@ int main()
 	while (input!=-1)
 	{
 		input = fscanf (fp,"%lf,%lf\n",&x[i],&y[i]);
-		
 		i++;
 	}
 	fclose(fp);
